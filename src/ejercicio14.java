@@ -18,6 +18,6 @@ public class ejercicio14 {
         // Metodo para preservarel orden original
         Set<Integer> conjuntoSinDuplicados = new LinkedHashSet<>(lista);
         List<Integer> listaSinDuplicados = new ArrayList<>(conjuntoSinDuplicados);
-        System.out.println("Lista sin duplicados (método 1): " + listaSinDuplicados);
+        System.out.println("Lista sin duplicados : " + listaSinDuplicados);
     }
 }
